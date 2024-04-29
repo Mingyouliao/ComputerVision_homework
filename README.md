@@ -3,11 +3,14 @@
 # For Hw2:
 
 ### For p1, you can run the following code:
-python3 p1.py --feature tiny_image  --classifier nearest_neighbor --dataset_dir ../hw2_data/p1_data/ //
-python3 p1.py --feature bag_of_sift --classifier nearest_neighbor --dataset_dir ../hw2_data/p1_data/ //
+python3 p1.py --feature tiny_image  --classifier nearest_neighbor --dataset_dir ../hw2_data/p1_data/ 
+
+python3 p1.py --feature bag_of_sift --classifier nearest_neighbor --dataset_dir ../hw2_data/p1_data/ 
+
 
 ### For p2, you can run the following code:
 Training (only you will run this)
+
 python3 p2_train.py --dataset_dir ../hw2_data/p2_data/
 
 Manually put your best model under folder checkpoint/ and rename as 'resnet18_best.pth' or 'mynet_best.pth'
